@@ -13,8 +13,8 @@ import { LanguageSwitcherComponent } from '../language-switcher/language-switche
         <div class="flex justify-between items-center h-16">
           <!-- Logo -->
           <div class="flex-shrink-0">
-            <a routerLink="/" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors">
-              InfoClé Solutions
+            <a routerLink="/" class="flex items-center hover:opacity-80 transition-opacity">
+              <img src="/assets/infocle-logo.webp" alt="InfoClé Solutions" class="h-10 w-auto">
             </a>
           </div>
           
