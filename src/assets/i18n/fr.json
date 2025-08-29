@@ -82,22 +82,22 @@
   },
   "SERVICES": {
     "TITLE": "Nos Services",
-    "SUBTITLE": "Solutions IT complètes adaptées pour répondre aux besoins de votre entreprise et stimuler la transformation numérique.",
+    "SUBTITLE": "Services professionnels de création de sites web conçus pour aider votre entreprise à réussir en ligne.",
     "WEB_DEV": {
-      "TITLE": "Développement Web",
-      "DESCRIPTION": "Applications web modernes et réactives construites avec les dernières technologies pour une expérience utilisateur et des performances optimales."
+      "TITLE": "Création de Sites Web",
+      "DESCRIPTION": "Sites web personnalisés adaptés à votre marque et besoins d'affaires. Des sites vitrine simples aux sites d'entreprise complexes, nous créons des designs responsifs et modernes qui fonctionnent parfaitement sur tous les appareils."
     },
-    "CLOUD": {
-      "TITLE": "Solutions Cloud",
-      "DESCRIPTION": "Infrastructure cloud évolutive et services de migration pour améliorer l'efficacité et réduire les coûts opérationnels."
+    "WEBAPP": {
+      "TITLE": "Applications Web Transactionnelles",
+      "DESCRIPTION": "Applications web avancées avec comptes utilisateurs, traitement des paiements et workflows complexes. Parfait pour les plateformes SaaS, sites e-commerce et applications d'entreprise nécessitant des fonctionnalités dynamiques."
     },
-    "CONSULTING": {
-      "TITLE": "Conseil en TI",
-      "DESCRIPTION": "Conseil stratégique en technologie pour aligner votre infrastructure IT avec vos objectifs et buts commerciaux."
+    "SEO": {
+      "TITLE": "SEO et Stratégie de Contenu",
+      "DESCRIPTION": "Contenu optimisé et stratégies SEO pour aider votre site web à mieux se classer dans les résultats de recherche et convertir les visiteurs en clients. Nous nous concentrons sur le SEO technique et la création de contenu convaincant."
     },
-    "DATA_ANALYTICS": {
-      "TITLE": "Analyse de Données",
-      "DESCRIPTION": "Transformez vos données en insights exploitables avec nos solutions avancées d'analyse et de business intelligence."
+    "HOSTING": {
+      "TITLE": "Hébergement Cloud et Maintenance",
+      "DESCRIPTION": "Hébergement cloud fiable basé sur Kubernetes avec maintenance continue, mises à jour de sécurité et support technique. Votre site reste rapide, sécurisé et toujours disponible."
     }
   },
   "ABOUT": {

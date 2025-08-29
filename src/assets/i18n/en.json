@@ -82,22 +82,22 @@
   },
   "SERVICES": {
     "TITLE": "Our Services",
-    "SUBTITLE": "Comprehensive IT solutions tailored to meet your business needs and drive digital transformation.",
+    "SUBTITLE": "Professional website creation services designed to help your business succeed online.",
     "WEB_DEV": {
-      "TITLE": "Web Development",
-      "DESCRIPTION": "Modern, responsive web applications built with the latest technologies for optimal user experience and performance."
+      "TITLE": "Website Creation",
+      "DESCRIPTION": "Custom websites tailored to your brand and business needs. From simple brochure sites to complex business websites, we create responsive, modern designs that work perfectly on all devices."
     },
-    "CLOUD": {
-      "TITLE": "Cloud Solutions",
-      "DESCRIPTION": "Scalable cloud infrastructure and migration services to improve efficiency and reduce operational costs."
+    "WEBAPP": {
+      "TITLE": "Transactional Web Apps",
+      "DESCRIPTION": "Advanced web applications with user accounts, payment processing, and complex workflows. Perfect for SaaS platforms, e-commerce sites, and business applications that need dynamic functionality."
     },
-    "CONSULTING": {
-      "TITLE": "IT Consulting",
-      "DESCRIPTION": "Strategic technology consulting to align your IT infrastructure with your business objectives and goals."
+    "SEO": {
+      "TITLE": "SEO & Content Strategy",
+      "DESCRIPTION": "Optimized content and SEO strategies to help your website rank higher in search results and convert visitors into customers. We focus on both technical SEO and compelling content creation."
     },
-    "DATA_ANALYTICS": {
-      "TITLE": "Data Analytics",
-      "DESCRIPTION": "Transform your data into actionable insights with our advanced analytics and business intelligence solutions."
+    "HOSTING": {
+      "TITLE": "Cloud Hosting & Care",
+      "DESCRIPTION": "Reliable Kubernetes-based cloud hosting with ongoing maintenance, security updates, and technical support. Your website stays fast, secure, and always available."
     }
   },
   "ABOUT": {
