@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
   template: `
     <div class="relative">
       <button (click)="toggleDropdown()" 
-              class="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-300 rounded-md hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors">
+              class="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-dark-neutral bg-white border border-gray-300 rounded-md hover:bg-neutral focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-colors">
         <span>{{ currentLanguage?.label }}</span>
         <svg class="w-4 h-4 transform transition-transform" 
              [class.rotate-180]="dropdownOpen"
@@ -22,7 +22,7 @@ import { CommonModule } from '@angular/common';
         <div class="py-1">
           <button *ngFor="let lang of languages"
                   (click)="switchLanguage(lang.code)"
-                  [class]="'block w-full text-left px-4 py-2 text-sm hover:bg-blue-50 transition-colors ' + (currentLanguage?.code === lang.code ? 'bg-blue-100 text-blue-700 font-medium' : 'text-gray-700')">
+                  [class]="'block w-full text-left px-4 py-2 text-sm hover:bg-primary/5 transition-colors ' + (currentLanguage?.code === lang.code ? 'bg-primary/10 text-primary font-medium' : 'text-dark-neutral')">
             {{ lang.label }}
           </button>
         </div>

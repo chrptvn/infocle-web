@@ -21,24 +21,24 @@ import { LanguageSwitcherComponent } from '../language-switcher/language-switche
           <!-- Navigation Links -->
           <div class="hidden md:flex space-x-8">
             <a routerLink="/" 
-               routerLinkActive="text-blue-600 border-blue-600" 
+               routerLinkActive="text-primary border-primary" 
                [routerLinkActiveOptions]="{exact: true}"
-               class="text-gray-700 hover:text-blue-600 px-3 py-2 border-b-2 border-transparent hover:border-blue-200 transition-all">
+               class="text-dark-neutral hover:text-primary px-3 py-2 border-b-2 border-transparent hover:border-primary/30 transition-all">
               {{ 'NAVIGATION.HOME' | translate }}
             </a>
             <a routerLink="/services" 
-               routerLinkActive="text-blue-600 border-blue-600"
-               class="text-gray-700 hover:text-blue-600 px-3 py-2 border-b-2 border-transparent hover:border-blue-200 transition-all">
+               routerLinkActive="text-primary border-primary"
+               class="text-dark-neutral hover:text-primary px-3 py-2 border-b-2 border-transparent hover:border-primary/30 transition-all">
               {{ 'NAVIGATION.SERVICES' | translate }}
             </a>
             <a routerLink="/about" 
-               routerLinkActive="text-blue-600 border-blue-600"
-               class="text-gray-700 hover:text-blue-600 px-3 py-2 border-b-2 border-transparent hover:border-blue-200 transition-all">
+               routerLinkActive="text-primary border-primary"
+               class="text-dark-neutral hover:text-primary px-3 py-2 border-b-2 border-transparent hover:border-primary/30 transition-all">
               {{ 'NAVIGATION.ABOUT' | translate }}
             </a>
             <a routerLink="/contact" 
-               routerLinkActive="text-blue-600 border-blue-600"
-               class="text-gray-700 hover:text-blue-600 px-3 py-2 border-b-2 border-transparent hover:border-blue-200 transition-all">
+               routerLinkActive="text-primary border-primary"
+               class="text-dark-neutral hover:text-primary px-3 py-2 border-b-2 border-transparent hover:border-primary/30 transition-all">
               {{ 'NAVIGATION.CONTACT' | translate }}
             </a>
           </div>
@@ -51,7 +51,7 @@ import { LanguageSwitcherComponent } from '../language-switcher/language-switche
           <!-- Mobile menu button -->
           <div class="md:hidden">
             <button (click)="toggleMobileMenu()" 
-                    class="text-gray-700 hover:text-blue-600 focus:outline-none focus:text-blue-600">
+                    class="text-dark-neutral hover:text-primary focus:outline-none focus:text-primary">
               <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
@@ -61,30 +61,30 @@ import { LanguageSwitcherComponent } from '../language-switcher/language-switche
 
         <!-- Mobile Navigation -->
         <div [class]="'md:hidden overflow-hidden transition-all duration-300 ' + (mobileMenuOpen ? 'max-h-64 opacity-100' : 'max-h-0 opacity-0')">
-          <div class="px-2 pt-2 pb-3 space-y-1 bg-gray-50 rounded-lg mt-2">
+          <div class="px-2 pt-2 pb-3 space-y-1 bg-neutral rounded-lg mt-2">
             <a routerLink="/" 
                (click)="closeMobileMenu()"
-               routerLinkActive="bg-blue-100 text-blue-700"
+               routerLinkActive="bg-primary/10 text-primary"
                [routerLinkActiveOptions]="{exact: true}"
-               class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors">
+               class="block px-3 py-2 rounded-md text-base font-medium text-dark-neutral hover:text-primary hover:bg-primary/5 transition-colors">
               {{ 'NAVIGATION.HOME' | translate }}
             </a>
             <a routerLink="/services" 
                (click)="closeMobileMenu()"
-               routerLinkActive="bg-blue-100 text-blue-700"
-               class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors">
+               routerLinkActive="bg-primary/10 text-primary"
+               class="block px-3 py-2 rounded-md text-base font-medium text-dark-neutral hover:text-primary hover:bg-primary/5 transition-colors">
               {{ 'NAVIGATION.SERVICES' | translate }}
             </a>
             <a routerLink="/about" 
                (click)="closeMobileMenu()"
-               routerLinkActive="bg-blue-100 text-blue-700"
-               class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors">
+               routerLinkActive="bg-primary/10 text-primary"
+               class="block px-3 py-2 rounded-md text-base font-medium text-dark-neutral hover:text-primary hover:bg-primary/5 transition-colors">
               {{ 'NAVIGATION.ABOUT' | translate }}
             </a>
             <a routerLink="/contact" 
                (click)="closeMobileMenu()"
-               routerLinkActive="bg-blue-100 text-blue-700"
-               class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors">
+               routerLinkActive="bg-primary/10 text-primary"
+               class="block px-3 py-2 rounded-md text-base font-medium text-dark-neutral hover:text-primary hover:bg-primary/5 transition-colors">
               {{ 'NAVIGATION.CONTACT' | translate }}
             </a>
           </div>
