@@ -7,24 +7,76 @@
   },
   "HOME": {
     "HERO": {
-      "TITLE": "Innovative IT Solutions for Your Business",
-      "SUBTITLE": "We help companies transform their operations through cutting-edge technology solutions, expert consulting, and reliable support.",
-      "CTA_SERVICES": "Explore Services",
-      "CTA_CONTACT": "Get In Touch"
+      "TITLE": "We design and build modern websites.",
+      "SUBTITLE": "From simple static sites to advanced transactional apps — all cloud-ready and bilingual.",
+      "CTA_QUOTE": "Request a Quote",
+      "CTA_WORK": "See Our Work"
     },
-    "FEATURES": {
-      "TITLE": "Why Choose InfoClé Solutions?",
-      "INNOVATION": {
-        "TITLE": "Innovation",
-        "DESCRIPTION": "We leverage the latest technologies to deliver cutting-edge solutions that drive your business forward."
+    "PROJECTS": {
+      "TITLE": "Our Work",
+      "GYMBRO": {
+        "TITLE": "GymBro.ca",
+        "DESCRIPTION": "Bilingual fitness content site optimized for SEO and user engagement.",
+        "LINK": "Visit Site"
       },
-      "PERFORMANCE": {
-        "TITLE": "Performance",
-        "DESCRIPTION": "Our optimized solutions ensure maximum efficiency and reliability for your critical business operations."
+      "MINUTEMAIL": {
+        "TITLE": "MinuteMail.co",
+        "DESCRIPTION": "SaaS disposable email service with cloud-ready transactional capabilities.",
+        "LINK": "Visit Site"
+      }
+    },
+    "SERVICES": {
+      "TITLE": "Our Services",
+      "WEBSITE": {
+        "TITLE": "Website Creation",
+        "DESCRIPTION": "Custom websites tailored to your brand and business needs."
       },
-      "SECURITY": {
-        "TITLE": "Security",
-        "DESCRIPTION": "We implement robust security measures to protect your data and maintain your customers' trust."
+      "WEBAPP": {
+        "TITLE": "Transactional Web Apps",
+        "DESCRIPTION": "Advanced applications with user accounts, payments, and complex workflows."
+      },
+      "SEO": {
+        "TITLE": "SEO & Content",
+        "DESCRIPTION": "Optimized content strategy to help your site rank higher and convert better."
+      },
+      "HOSTING": {
+        "TITLE": "Cloud Hosting & Care",
+        "DESCRIPTION": "Reliable Kubernetes hosting with ongoing maintenance and support."
+      }
+    },
+    "PROCESS": {
+      "TITLE": "Our Process",
+      "DISCOVERY": {
+        "TITLE": "Discovery",
+        "DESCRIPTION": "We understand your goals, audience, and requirements."
+      },
+      "DESIGN": {
+        "TITLE": "Design",
+        "DESCRIPTION": "Create wireframes and visual designs that align with your brand."
+      },
+      "BUILD": {
+        "TITLE": "Build",
+        "DESCRIPTION": "Develop your website with modern technologies and best practices."
+      },
+      "LAUNCH": {
+        "TITLE": "Launch & Care",
+        "DESCRIPTION": "Deploy to the cloud and provide ongoing maintenance and support."
+      }
+    },
+    "CONTACT": {
+      "TITLE": "Tell us about your project",
+      "FORM": {
+        "NAME": "Your Name",
+        "EMAIL": "Email Address",
+        "PROJECT_TYPE": "Project Type",
+        "PROJECT_TYPES": {
+          "STATIC": "Static Website",
+          "WEBAPP": "Web Application",
+          "ECOMMERCE": "E-commerce",
+          "OTHER": "Other"
+        },
+        "MESSAGE": "Tell us about your project",
+        "SUBMIT": "Send Message"
       }
     }
   },
