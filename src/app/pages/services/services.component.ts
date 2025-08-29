@@ -35,8 +35,8 @@ import { TranslateModule } from '@ngx-translate/core';
 
           <!-- Transactional Web Apps -->
           <div class="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow">
-            <div class="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
-              <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+              <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
               </svg>
             </div>
@@ -65,8 +65,8 @@ import { TranslateModule } from '@ngx-translate/core';
 
           <!-- Cloud Hosting & Care -->
           <div class="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow">
-            <div class="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
-              <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+              <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path>
               </svg>
             </div>

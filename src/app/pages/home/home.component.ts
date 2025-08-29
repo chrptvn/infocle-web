@@ -72,12 +72,12 @@ import { CommonModule } from '@angular/common';
             <div class="bg-neutral rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
               <div class="h-48 bg-gradient-to-br from-secondary/20 to-primary/20 flex items-center justify-center">
                 <div class="text-center">
-                  <div class="w-16 h-16 bg-secondary/20 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <svg class="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div class="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-3">
+                    <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                     </svg>
                   </div>
-                  <span class="text-secondary font-semibold">{{ 'HOME.PROJECTS.MINUTEMAIL.TITLE' | translate }}</span>
+                  <span class="text-primary font-semibold">{{ 'HOME.PROJECTS.MINUTEMAIL.TITLE' | translate }}</span>
                 </div>
               </div>
               <div class="p-6">
@@ -88,7 +88,7 @@ import { CommonModule } from '@angular/common';
                   {{ 'HOME.PROJECTS.MINUTEMAIL.DESCRIPTION' | translate }}
                 </p>
                 <a href="https://minutemail.co" target="_blank" rel="noopener noreferrer"
-                   class="inline-flex items-center text-secondary hover:text-secondary/80 font-medium">
+                   class="inline-flex items-center text-primary hover:text-primary/80 font-medium">
                   {{ 'HOME.PROJECTS.MINUTEMAIL.LINK' | translate }}
                   <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
@@ -124,8 +124,8 @@ import { CommonModule } from '@angular/common';
 
             <!-- Transactional Web Apps -->
             <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-              <div class="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
-                <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
                 </svg>
               </div>
@@ -154,8 +154,8 @@ import { CommonModule } from '@angular/common';
 
             <!-- Cloud Hosting & Care -->
             <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-              <div class="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mb-4">
-                <svg class="w-6 h-6 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
+                <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path>
                 </svg>
               </div>
@@ -192,8 +192,8 @@ import { CommonModule } from '@angular/common';
 
             <!-- Design -->
             <div class="text-center">
-              <div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span class="text-2xl font-bold text-secondary">2</span>
+              <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span class="text-2xl font-bold text-primary">2</span>
               </div>
               <h3 class="text-xl font-semibold text-dark-neutral mb-2">
                 {{ 'HOME.PROCESS.DESIGN.TITLE' | translate }}
@@ -218,8 +218,8 @@ import { CommonModule } from '@angular/common';
 
             <!-- Launch & Care -->
             <div class="text-center">
-              <div class="w-16 h-16 bg-secondary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span class="text-2xl font-bold text-secondary">4</span>
+              <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span class="text-2xl font-bold text-primary">4</span>
               </div>
               <h3 class="text-xl font-semibold text-dark-neutral mb-2">
                 {{ 'HOME.PROCESS.LAUNCH.TITLE' | translate }}
