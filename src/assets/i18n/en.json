@@ -1,0 +1,101 @@
+{
+  "NAVIGATION": {
+    "HOME": "Home",
+    "SERVICES": "Services",
+    "ABOUT": "About",
+    "CONTACT": "Contact"
+  },
+  "HOME": {
+    "HERO": {
+      "TITLE": "Innovative IT Solutions for Your Business",
+      "SUBTITLE": "We help companies transform their operations through cutting-edge technology solutions, expert consulting, and reliable support.",
+      "CTA_SERVICES": "Explore Services",
+      "CTA_CONTACT": "Get In Touch"
+    },
+    "FEATURES": {
+      "TITLE": "Why Choose InfoClé Solutions?",
+      "INNOVATION": {
+        "TITLE": "Innovation",
+        "DESCRIPTION": "We leverage the latest technologies to deliver cutting-edge solutions that drive your business forward."
+      },
+      "PERFORMANCE": {
+        "TITLE": "Performance",
+        "DESCRIPTION": "Our optimized solutions ensure maximum efficiency and reliability for your critical business operations."
+      },
+      "SECURITY": {
+        "TITLE": "Security",
+        "DESCRIPTION": "We implement robust security measures to protect your data and maintain your customers' trust."
+      }
+    }
+  },
+  "SERVICES": {
+    "TITLE": "Our Services",
+    "SUBTITLE": "Comprehensive IT solutions tailored to meet your business needs and drive digital transformation.",
+    "WEB_DEV": {
+      "TITLE": "Web Development",
+      "DESCRIPTION": "Modern, responsive web applications built with the latest technologies for optimal user experience and performance."
+    },
+    "CLOUD": {
+      "TITLE": "Cloud Solutions",
+      "DESCRIPTION": "Scalable cloud infrastructure and migration services to improve efficiency and reduce operational costs."
+    },
+    "CONSULTING": {
+      "TITLE": "IT Consulting",
+      "DESCRIPTION": "Strategic technology consulting to align your IT infrastructure with your business objectives and goals."
+    },
+    "DATA_ANALYTICS": {
+      "TITLE": "Data Analytics",
+      "DESCRIPTION": "Transform your data into actionable insights with our advanced analytics and business intelligence solutions."
+    }
+  },
+  "ABOUT": {
+    "TITLE": "About InfoClé Solutions",
+    "SUBTITLE": "Your trusted partner for innovative technology solutions and digital transformation.",
+    "MISSION": {
+      "TITLE": "Our Mission",
+      "DESCRIPTION": "At InfoClé Solutions, we are committed to empowering businesses through innovative technology solutions. We believe that the right technology can transform operations, enhance productivity, and create new opportunities for growth."
+    },
+    "VALUES": {
+      "TITLE": "Our Values",
+      "VALUE_1": "Excellence in every project we deliver",
+      "VALUE_2": "Innovation through cutting-edge technology",
+      "VALUE_3": "Long-term partnerships built on trust and reliability"
+    },
+    "TEAM": {
+      "TITLE": "Our Team",
+      "DESCRIPTION": "Our experienced team of developers, consultants, and IT specialists work collaboratively to deliver exceptional results. With decades of combined experience, we bring expertise across multiple industries and technologies."
+    }
+  },
+  "CONTACT": {
+    "TITLE": "Contact Us",
+    "SUBTITLE": "Ready to transform your business? Get in touch with our team today.",
+    "FORM": {
+      "TITLE": "Send us a message",
+      "NAME": "Full Name",
+      "EMAIL": "Email Address",
+      "SUBJECT": "Subject",
+      "MESSAGE": "Message",
+      "SUBMIT": "Send Message"
+    },
+    "INFO": {
+      "TITLE": "Get in Touch",
+      "ADDRESS": "123 Technology Street, Suite 100, Montreal, QC H3B 2Y5"
+    },
+    "HOURS": {
+      "TITLE": "Business Hours",
+      "WEEKDAYS": "Monday - Friday: 9:00 AM - 6:00 PM",
+      "SATURDAY": "Saturday: 10:00 AM - 4:00 PM",
+      "SUNDAY": "Sunday: Closed"
+    }
+  },
+  "FOOTER": {
+    "COMPANY_DESCRIPTION": "Leading provider of innovative IT solutions, helping businesses achieve digital transformation and operational excellence.",
+    "SERVICES_TITLE": "Services",
+    "SERVICE_1": "Web Development",
+    "SERVICE_2": "Cloud Solutions",
+    "SERVICE_3": "IT Consulting",
+    "CONTACT_TITLE": "Contact",
+    "ADDRESS": "Montreal, Quebec, Canada",
+    "COPYRIGHT": "© 2025 InfoClé Solutions. All rights reserved."
+  }
+}

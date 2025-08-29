@@ -1,0 +1,101 @@
+{
+  "NAVIGATION": {
+    "HOME": "Accueil",
+    "SERVICES": "Services",
+    "ABOUT": "À propos",
+    "CONTACT": "Contact"
+  },
+  "HOME": {
+    "HERO": {
+      "TITLE": "Solutions IT Innovantes pour Votre Entreprise",
+      "SUBTITLE": "Nous aidons les entreprises à transformer leurs opérations grâce à des solutions technologiques de pointe, des conseils d'experts et un support fiable.",
+      "CTA_SERVICES": "Explorer les Services",
+      "CTA_CONTACT": "Nous Contacter"
+    },
+    "FEATURES": {
+      "TITLE": "Pourquoi Choisir InfoClé Solutions?",
+      "INNOVATION": {
+        "TITLE": "Innovation",
+        "DESCRIPTION": "Nous utilisons les dernières technologies pour fournir des solutions de pointe qui font progresser votre entreprise."
+      },
+      "PERFORMANCE": {
+        "TITLE": "Performance",
+        "DESCRIPTION": "Nos solutions optimisées garantissent une efficacité et une fiabilité maximales pour vos opérations commerciales critiques."
+      },
+      "SECURITY": {
+        "TITLE": "Sécurité",
+        "DESCRIPTION": "Nous mettons en œuvre des mesures de sécurité robustes pour protéger vos données et maintenir la confiance de vos clients."
+      }
+    }
+  },
+  "SERVICES": {
+    "TITLE": "Nos Services",
+    "SUBTITLE": "Solutions IT complètes adaptées pour répondre aux besoins de votre entreprise et stimuler la transformation numérique.",
+    "WEB_DEV": {
+      "TITLE": "Développement Web",
+      "DESCRIPTION": "Applications web modernes et réactives construites avec les dernières technologies pour une expérience utilisateur et des performances optimales."
+    },
+    "CLOUD": {
+      "TITLE": "Solutions Cloud",
+      "DESCRIPTION": "Infrastructure cloud évolutive et services de migration pour améliorer l'efficacité et réduire les coûts opérationnels."
+    },
+    "CONSULTING": {
+      "TITLE": "Conseil en TI",
+      "DESCRIPTION": "Conseil stratégique en technologie pour aligner votre infrastructure IT avec vos objectifs et buts commerciaux."
+    },
+    "DATA_ANALYTICS": {
+      "TITLE": "Analyse de Données",
+      "DESCRIPTION": "Transformez vos données en insights exploitables avec nos solutions avancées d'analyse et de business intelligence."
+    }
+  },
+  "ABOUT": {
+    "TITLE": "À Propos d'InfoClé Solutions",
+    "SUBTITLE": "Votre partenaire de confiance pour des solutions technologiques innovantes et la transformation numérique.",
+    "MISSION": {
+      "TITLE": "Notre Mission",
+      "DESCRIPTION": "Chez InfoClé Solutions, nous nous engageons à autonomiser les entreprises grâce à des solutions technologiques innovantes. Nous croyons que la bonne technologie peut transformer les opérations, améliorer la productivité et créer de nouvelles opportunités de croissance."
+    },
+    "VALUES": {
+      "TITLE": "Nos Valeurs",
+      "VALUE_1": "Excellence dans chaque projet que nous livrons",
+      "VALUE_2": "Innovation grâce à la technologie de pointe",
+      "VALUE_3": "Partenariats à long terme basés sur la confiance et la fiabilité"
+    },
+    "TEAM": {
+      "TITLE": "Notre Équipe",
+      "DESCRIPTION": "Notre équipe expérimentée de développeurs, consultants et spécialistes IT travaille en collaboration pour livrer des résultats exceptionnels. Avec des décennies d'expérience combinée, nous apportons une expertise dans plusieurs industries et technologies."
+    }
+  },
+  "CONTACT": {
+    "TITLE": "Nous Contacter",
+    "SUBTITLE": "Prêt à transformer votre entreprise? Contactez notre équipe dès aujourd'hui.",
+    "FORM": {
+      "TITLE": "Envoyez-nous un message",
+      "NAME": "Nom complet",
+      "EMAIL": "Adresse e-mail",
+      "SUBJECT": "Sujet",
+      "MESSAGE": "Message",
+      "SUBMIT": "Envoyer le message"
+    },
+    "INFO": {
+      "TITLE": "Contactez-nous",
+      "ADDRESS": "123 Rue de la Technologie, Suite 100, Montréal, QC H3B 2Y5"
+    },
+    "HOURS": {
+      "TITLE": "Heures d'ouverture",
+      "WEEKDAYS": "Lundi - Vendredi: 9h00 - 18h00",
+      "SATURDAY": "Samedi: 10h00 - 16h00",
+      "SUNDAY": "Dimanche: Fermé"
+    }
+  },
+  "FOOTER": {
+    "COMPANY_DESCRIPTION": "Fournisseur leader de solutions IT innovantes, aidant les entreprises à réaliser la transformation numérique et l'excellence opérationnelle.",
+    "SERVICES_TITLE": "Services",
+    "SERVICE_1": "Développement Web",
+    "SERVICE_2": "Solutions Cloud",
+    "SERVICE_3": "Conseil en TI",
+    "CONTACT_TITLE": "Contact",
+    "ADDRESS": "Montréal, Québec, Canada",
+    "COPYRIGHT": "© 2025 InfoClé Solutions. Tous droits réservés."
+  }
+}
