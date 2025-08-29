@@ -101,21 +101,29 @@
     }
   },
   "ABOUT": {
-    "TITLE": "About InfoClé Solutions",
-    "SUBTITLE": "Your trusted partner for innovative technology solutions and digital transformation.",
+    "TITLE": "About Us",
+    "SUBTITLE": "We create modern, cloud-ready websites that help businesses succeed online.",
     "MISSION": {
       "TITLE": "Our Mission",
-      "DESCRIPTION": "At InfoClé Solutions, we are committed to empowering businesses through innovative technology solutions. We believe that the right technology can transform operations, enhance productivity, and create new opportunities for growth."
+      "DESCRIPTION": "We believe every business deserves a professional online presence. Our mission is to create beautiful, functional websites that not only look great but also drive real business results. From simple static sites to complex web applications, we build solutions that are scalable, reliable, and ready for the cloud."
     },
     "VALUES": {
       "TITLE": "Our Values",
-      "VALUE_1": "Excellence in every project we deliver",
-      "VALUE_2": "Innovation through cutting-edge technology",
-      "VALUE_3": "Long-term partnerships built on trust and reliability"
+      "VALUE_1": "Quality craftsmanship in every website we build",
+      "VALUE_2": "Modern, responsive designs that work on all devices",
+      "VALUE_3": "Cloud-ready solutions built for scale and reliability",
+      "VALUE_4": "Bilingual expertise for Canadian businesses"
     },
-    "TEAM": {
-      "TITLE": "Our Team",
-      "DESCRIPTION": "Our experienced team of developers, consultants, and IT specialists work collaboratively to deliver exceptional results. With decades of combined experience, we bring expertise across multiple industries and technologies."
+    "APPROACH": {
+      "TITLE": "Our Approach",
+      "DESCRIPTION": "We combine modern web technologies with proven design principles to create websites that perform. Every project starts with understanding your business goals, then we craft a solution that's tailored to your needs. Whether you need a simple brochure site or a complex SaaS application, we have the expertise to deliver."
+    },
+    "EXPERTISE": {
+      "TITLE": "Our Expertise",
+      "TECH_1": "Modern frameworks like React, Angular, and Vue.js",
+      "TECH_2": "Cloud hosting on Kubernetes for maximum reliability",
+      "TECH_3": "SEO optimization and content strategy",
+      "TECH_4": "Bilingual development for English and French markets"
     }
   },
   "CONTACT": {

@@ -101,21 +101,29 @@
     }
   },
   "ABOUT": {
-    "TITLE": "À Propos d'InfoClé Solutions",
-    "SUBTITLE": "Votre partenaire de confiance pour des solutions technologiques innovantes et la transformation numérique.",
+    "TITLE": "À Propos",
+    "SUBTITLE": "Nous créons des sites web modernes et prêts pour le cloud qui aident les entreprises à réussir en ligne.",
     "MISSION": {
       "TITLE": "Notre Mission",
-      "DESCRIPTION": "Chez InfoClé Solutions, nous nous engageons à autonomiser les entreprises grâce à des solutions technologiques innovantes. Nous croyons que la bonne technologie peut transformer les opérations, améliorer la productivité et créer de nouvelles opportunités de croissance."
+      "DESCRIPTION": "Nous croyons que chaque entreprise mérite une présence en ligne professionnelle. Notre mission est de créer des sites web beaux et fonctionnels qui non seulement ont fière allure, mais génèrent aussi de vrais résultats d'affaires. Des sites statiques simples aux applications web complexes, nous construisons des solutions évolutives, fiables et prêtes pour le cloud."
     },
     "VALUES": {
       "TITLE": "Nos Valeurs",
-      "VALUE_1": "Excellence dans chaque projet que nous livrons",
-      "VALUE_2": "Innovation grâce à la technologie de pointe",
-      "VALUE_3": "Partenariats à long terme basés sur la confiance et la fiabilité"
+      "VALUE_1": "Artisanat de qualité dans chaque site web que nous construisons",
+      "VALUE_2": "Designs modernes et responsifs qui fonctionnent sur tous les appareils",
+      "VALUE_3": "Solutions prêtes pour le cloud conçues pour l'évolutivité et la fiabilité",
+      "VALUE_4": "Expertise bilingue pour les entreprises canadiennes"
     },
-    "TEAM": {
-      "TITLE": "Notre Équipe",
-      "DESCRIPTION": "Notre équipe expérimentée de développeurs, consultants et spécialistes IT travaille en collaboration pour livrer des résultats exceptionnels. Avec des décennies d'expérience combinée, nous apportons une expertise dans plusieurs industries et technologies."
+    "APPROACH": {
+      "TITLE": "Notre Approche",
+      "DESCRIPTION": "Nous combinons les technologies web modernes avec des principes de design éprouvés pour créer des sites web performants. Chaque projet commence par comprendre vos objectifs d'affaires, puis nous créons une solution adaptée à vos besoins. Que vous ayez besoin d'un site vitrine simple ou d'une application SaaS complexe, nous avons l'expertise pour livrer."
+    },
+    "EXPERTISE": {
+      "TITLE": "Notre Expertise",
+      "TECH_1": "Frameworks modernes comme React, Angular et Vue.js",
+      "TECH_2": "Hébergement cloud sur Kubernetes pour une fiabilité maximale",
+      "TECH_3": "Optimisation SEO et stratégie de contenu",
+      "TECH_4": "Développement bilingue pour les marchés anglais et français"
     }
   },
   "CONTACT": {
