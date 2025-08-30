@@ -41,15 +41,10 @@ import { CommonModule } from '@angular/common';
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <!-- GymBro.ca -->
             <div class="bg-neutral rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-              <div class="h-48 bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-                <div class="text-center">
-                  <div class="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                    </svg>
-                  </div>
-                  <span class="text-primary font-semibold">{{ 'HOME.PROJECTS.GYMBRO.TITLE' | translate }}</span>
-                </div>
+              <div class="h-48 overflow-hidden">
+                <img src="/assets/gymbro_thumb.webp" 
+                     alt="GymBro.ca website screenshot" 
+                     class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
               </div>
               <div class="p-6">
                 <h3 class="text-xl font-semibold text-dark-neutral mb-2">
@@ -70,15 +65,10 @@ import { CommonModule } from '@angular/common';
 
             <!-- MinuteMail.co -->
             <div class="bg-neutral rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-              <div class="h-48 bg-gradient-to-br from-secondary/20 to-primary/20 flex items-center justify-center">
-                <div class="text-center">
-                  <div class="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-3">
-                    <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-                    </svg>
-                  </div>
-                  <span class="text-primary font-semibold">{{ 'HOME.PROJECTS.MINUTEMAIL.TITLE' | translate }}</span>
-                </div>
+              <div class="h-48 overflow-hidden">
+                <img src="/assets/minutemail-thumb.webp" 
+                     alt="MinuteMail.co website screenshot" 
+                     class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
               </div>
               <div class="p-6">
                 <h3 class="text-xl font-semibold text-dark-neutral mb-2">
