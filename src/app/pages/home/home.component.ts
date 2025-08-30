@@ -41,11 +41,11 @@ import { CommonModule } from '@angular/common';
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <!-- GymBro.ca -->
             <div class="bg-neutral rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-              <div class="h-48 overflow-hidden">
+              <a href="https://gymbro.ca" target="_blank" rel="noopener noreferrer" class="block h-48 overflow-hidden cursor-pointer">
                 <img src="/assets/gymbro_thumb.webp" 
                      alt="GymBro.ca website screenshot" 
                      class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
-              </div>
+              </a>
               <div class="p-6">
                 <h3 class="text-xl font-semibold text-dark-neutral mb-2">
                   {{ 'HOME.PROJECTS.GYMBRO.TITLE' | translate }}
@@ -65,11 +65,11 @@ import { CommonModule } from '@angular/common';
 
             <!-- MinuteMail.co -->
             <div class="bg-neutral rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-              <div class="h-48 overflow-hidden">
+              <a href="https://minutemail.co" target="_blank" rel="noopener noreferrer" class="block h-48 overflow-hidden cursor-pointer">
                 <img src="/assets/minutemail-thumb.webp" 
                      alt="MinuteMail.co website screenshot" 
                      class="w-full h-full object-cover hover:scale-105 transition-transform duration-300">
-              </div>
+              </a>
               <div class="p-6">
                 <h3 class="text-xl font-semibold text-dark-neutral mb-2">
                   {{ 'HOME.PROJECTS.MINUTEMAIL.TITLE' | translate }}
