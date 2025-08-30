@@ -7,8 +7,8 @@
   },
   "HOME": {
     "HERO": {
-      "TITLE": "Nous concevons et construisons des sites web modernes.",
-      "SUBTITLE": "Des sites statiques simples aux applications transactionnelles avancées — tous prêts pour le cloud et bilingues.",
+      "TITLE": "Conception, intégration et hébergement",
+      "SUBTITLE": "Transformez vos idées en un site clé en main et prêt pour le cloud.",
       "CTA_QUOTE": "Demander un Devis",
       "CTA_WORK": "Voir Nos Réalisations"
     },
@@ -70,10 +70,9 @@
         "EMAIL": "Adresse Email",
         "PROJECT_TYPE": "Type de Projet",
         "PROJECT_TYPES": {
-          "STATIC": "Site Web Statique",
-          "WEBAPP": "Application Web",
-          "ECOMMERCE": "Commerce Électronique",
-          "OTHER": "Autre"
+          "WEBSITE": "Site Web",
+          "ECOMMERCE": "Boutique en ligne",
+          "OTHER": "Autre / Je ne sais pas encore"
         },
         "MESSAGE": "Parlez-nous de votre projet",
         "SUBMIT": "Envoyer le Message"

@@ -26,11 +26,6 @@ import { LanguageSwitcherComponent } from '../language-switcher/language-switche
                class="text-dark-neutral hover:text-primary px-3 py-2 border-b-2 border-transparent hover:border-primary/30 transition-all">
               {{ 'NAVIGATION.HOME' | translate }}
             </a>
-            <a routerLink="/services" 
-               routerLinkActive="text-primary border-primary"
-               class="text-dark-neutral hover:text-primary px-3 py-2 border-b-2 border-transparent hover:border-primary/30 transition-all">
-              {{ 'NAVIGATION.SERVICES' | translate }}
-            </a>
             <a routerLink="/about" 
                routerLinkActive="text-primary border-primary"
                class="text-dark-neutral hover:text-primary px-3 py-2 border-b-2 border-transparent hover:border-primary/30 transition-all">
@@ -68,12 +63,6 @@ import { LanguageSwitcherComponent } from '../language-switcher/language-switche
                [routerLinkActiveOptions]="{exact: true}"
                class="block px-3 py-2 rounded-md text-base font-medium text-dark-neutral hover:text-primary hover:bg-primary/5 transition-colors">
               {{ 'NAVIGATION.HOME' | translate }}
-            </a>
-            <a routerLink="/services" 
-               (click)="closeMobileMenu()"
-               routerLinkActive="bg-primary/10 text-primary"
-               class="block px-3 py-2 rounded-md text-base font-medium text-dark-neutral hover:text-primary hover:bg-primary/5 transition-colors">
-              {{ 'NAVIGATION.SERVICES' | translate }}
             </a>
             <a routerLink="/about" 
                (click)="closeMobileMenu()"

@@ -277,8 +277,7 @@ import { CommonModule } from '@angular/common';
                   id="projectType" 
                   formControlName="projectType"
                   class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-colors">
-                  <option value="static">{{ 'HOME.CONTACT.FORM.PROJECT_TYPES.STATIC' | translate }}</option>
-                  <option value="webapp">{{ 'HOME.CONTACT.FORM.PROJECT_TYPES.WEBAPP' | translate }}</option>
+                  <option value="website">{{ 'HOME.CONTACT.FORM.PROJECT_TYPES.WEBSITE' | translate }}</option>
                   <option value="ecommerce">{{ 'HOME.CONTACT.FORM.PROJECT_TYPES.ECOMMERCE' | translate }}</option>
                   <option value="other">{{ 'HOME.CONTACT.FORM.PROJECT_TYPES.OTHER' | translate }}</option>
                 </select>
@@ -316,7 +315,7 @@ export class HomeComponent {
     this.contactForm = this.fb.group({
       name: ['', [Validators.required, Validators.minLength(2)]],
       email: ['', [Validators.required, Validators.email]],
-      projectType: ['static', Validators.required],
+      projectType: ['website', Validators.required],
       message: ['', [Validators.required, Validators.minLength(10)]]
     });
   }
