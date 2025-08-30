@@ -45,7 +45,7 @@ import { CommonModule } from '@angular/common';
                 <img src="/assets/gymbro_thumb.webp" 
                      alt="GymBro.ca website screenshot" 
                      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-                <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/10 to-black/50 group-hover:from-black/10 group-hover:via-black/5 group-hover:to-black/20 transition-all duration-1000 ease-out"></div>
+                <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/10 to-black/50 group-hover:from-black/10 group-hover:via-black/5 group-hover:to-black/20 transition-all duration-300"></div>
               </a>
               <div class="p-6">
                 <h3 class="text-xl font-semibold text-dark-neutral mb-2">
@@ -70,7 +70,7 @@ import { CommonModule } from '@angular/common';
                 <img src="/assets/minutemail-thumb.webp" 
                      alt="MinuteMail.co website screenshot" 
                      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300">
-                <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/10 to-black/50 group-hover:from-black/10 group-hover:via-black/5 group-hover:to-black/20 transition-all duration-1000 ease-out"></div>
+                <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/10 to-black/50 group-hover:from-black/10 group-hover:via-black/5 group-hover:to-black/20 transition-all duration-300"></div>
               </a>
               <div class="p-6">
                 <h3 class="text-xl font-semibold text-dark-neutral mb-2">
