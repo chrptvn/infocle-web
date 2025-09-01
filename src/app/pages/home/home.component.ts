@@ -287,10 +287,10 @@ import { CommonModule } from '@angular/common';
 
               <div class="mb-6">
                 <label for="message" class="block text-sm font-medium text-dark-neutral mb-2">
-                  {{ 'HOME.CONTACT.FORM.MESSAGE' | translate }}
+                  {{ 'HOME.CONTACT.FORM.EMAIL_OR_PHONE' | translate }}
                 </label>
                 <textarea 
-                  id="message" 
+                  type="text" 
                   rows="4" 
                   formControlName="message"
                   class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-colors"
@@ -316,7 +316,7 @@ export class HomeComponent {
   constructor(private fb: FormBuilder) {
     this.contactForm = this.fb.group({
       name: ['', [Validators.required, Validators.minLength(2)]],
-      email: ['', [Validators.required, Validators.email]],
+      email: ['', [Validators.required, Validators.minLength(3)]],
       projectType: ['static', Validators.required],
       message: ['', [Validators.required, Validators.minLength(10)]]
     });

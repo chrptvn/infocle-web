@@ -65,10 +65,10 @@
     },
     "CONTACT": {
       "TITLE": "Parlez-nous de votre projet",
-      "PREFERRED_METHOD": "Nous préférons le contact via le formulaire ci-dessous, ou écrivez-nous à",
+      "PREFERRED_METHOD": "Nous vous contacterons dans les plus brefs délais. Vous pouvez aussi nous écrire à",
       "FORM": {
         "NAME": "Votre Nom",
-        "EMAIL": "Adresse Email",
+        "EMAIL_OR_PHONE": "Adresse Email ou Numéro de Téléphone",
         "PROJECT_TYPE": "Type de Projet",
         "PROJECT_TYPES": {
           "STATIC": "Site Web Statique",
