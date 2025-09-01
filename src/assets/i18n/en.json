@@ -70,8 +70,10 @@
         "EMAIL": "Email Address",
         "PROJECT_TYPE": "Project Type",
         "PROJECT_TYPES": {
-          "WEBSITE": "Website",
-          "ECOMMERCE": "Online Store",
+          "STATIC": "Static Website",
+          "WEBAPP": "Transactional Web App",
+          "ECOMMERCE": "E-commerce Website",
+          "HOSTING": "Cloud Hosting & Maintenance",
           "OTHER": "Other / Not sure yet"
         },
         "MESSAGE": "Tell us about your project",

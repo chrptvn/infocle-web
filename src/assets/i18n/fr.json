@@ -70,8 +70,10 @@
         "EMAIL": "Adresse Email",
         "PROJECT_TYPE": "Type de Projet",
         "PROJECT_TYPES": {
-          "WEBSITE": "Site Web",
-          "ECOMMERCE": "Boutique en ligne",
+          "STATIC": "Site Web Statique",
+          "WEBAPP": "Application Web Transactionnelle",
+          "ECOMMERCE": "Site E-commerce",
+          "HOSTING": "Hébergement Cloud et Maintenance",
           "OTHER": "Autre / Je ne sais pas encore"
         },
         "MESSAGE": "Parlez-nous de votre projet",
