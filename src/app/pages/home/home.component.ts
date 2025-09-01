@@ -20,7 +20,7 @@ import { CommonModule } from '@angular/common';
             {{ 'HOME.HERO.SUBTITLE' | translate }}
           </p>
           <div class="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
-            <a routerLink="/contact" 
+            <a href="#contact" 
                class="inline-block bg-primary text-white px-8 py-3 rounded-lg text-lg font-medium hover:bg-primary/90 transform hover:scale-105 transition-all duration-200 shadow-lg">
               {{ 'HOME.HERO.CTA_QUOTE' | translate }}
             </a>
@@ -225,7 +225,7 @@ import { CommonModule } from '@angular/common';
       </section>
 
       <!-- Contact Section -->
-      <section class="py-16 bg-neutral">
+      <section id="contact" class="py-16 bg-neutral">
         <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
           <div class="text-center mb-8">
             <h2 class="text-3xl font-bold text-dark-neutral mb-4">
