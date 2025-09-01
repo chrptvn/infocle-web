@@ -42,8 +42,8 @@ import { CommonModule } from '@angular/common';
             <!-- Website Creation -->
             <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
               <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9"></path>
+                <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" role="img" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                 </svg>
               </div>
               <h3 class="text-lg font-semibold text-dark-neutral mb-2">
@@ -57,8 +57,8 @@ import { CommonModule } from '@angular/common';
             <!-- Transactional Web Apps -->
             <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
               <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" role="img" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                 </svg>
               </div>
               <h3 class="text-lg font-semibold text-dark-neutral mb-2">
@@ -69,26 +69,26 @@ import { CommonModule } from '@angular/common';
               </p>
             </div>
 
-            <!-- SEO & Content -->
+            <!-- E-commerce Websites -->
             <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
               <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" role="img" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
                 </svg>
               </div>
               <h3 class="text-lg font-semibold text-dark-neutral mb-2">
-                {{ 'HOME.SERVICES.SEO.TITLE' | translate }}
+                {{ 'HOME.SERVICES.ECOMMERCE.TITLE' | translate }}
               </h3>
               <p class="text-gray-600 text-sm">
-                {{ 'HOME.SERVICES.SEO.DESCRIPTION' | translate }}
+                {{ 'HOME.SERVICES.ECOMMERCE.DESCRIPTION' | translate }}
               </p>
             </div>
 
-            <!-- Cloud Hosting & Care -->
+            <!-- Cloud Hosting & Maintenance -->
             <div class="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
               <div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path>
+                <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24" role="img" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z M9 12l2 2 4-4"></path>
                 </svg>
               </div>
               <h3 class="text-lg font-semibold text-dark-neutral mb-2">

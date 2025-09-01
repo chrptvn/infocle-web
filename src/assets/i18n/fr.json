@@ -35,13 +35,13 @@
         "TITLE": "Applications Web Transactionnelles",
         "DESCRIPTION": "Applications avancées avec comptes utilisateurs, paiements et workflows complexes."
       },
-      "SEO": {
-        "TITLE": "SEO et Contenu",
-        "DESCRIPTION": "Stratégie de contenu optimisée pour aider votre site à mieux se classer et convertir."
+      "ECOMMERCE": {
+        "TITLE": "Sites E-commerce",
+        "DESCRIPTION": "Boutiques en ligne complètes avec paiements sécurisés, gestion d'inventaire et comptes clients."
       },
       "HOSTING": {
         "TITLE": "Hébergement Cloud et Maintenance",
-        "DESCRIPTION": "Hébergement Kubernetes fiable avec maintenance et support continus."
+        "DESCRIPTION": "Hébergement cloud fiable avec maintenance continue, mises à jour de sécurité et support technique."
       }
     },
     "PROCESS": {
