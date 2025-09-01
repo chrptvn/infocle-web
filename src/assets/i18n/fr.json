@@ -65,6 +65,7 @@
     },
     "CONTACT": {
       "TITLE": "Parlez-nous de votre projet",
+      "PREFERRED_METHOD": "Nous préférons le contact via le formulaire ci-dessous, ou écrivez-nous à",
       "FORM": {
         "NAME": "Votre Nom",
         "EMAIL": "Adresse Email",
@@ -156,7 +157,7 @@
     "SERVICE_2": "Solutions Cloud",
     "SERVICE_3": "Conseil en TI",
     "CONTACT_TITLE": "Contact",
-    "ADDRESS": "Montréal, Québec, Canada",
+    "CONTACT_DESCRIPTION": "Contactez-nous via notre formulaire de contact ou par courriel :",
     "COPYRIGHT": "© 2025 InfoClé Solutions. Tous droits réservés."
   }
 }

@@ -231,6 +231,14 @@ import { CommonModule } from '@angular/common';
             <h2 class="text-3xl font-bold text-dark-neutral mb-4">
               {{ 'HOME.CONTACT.TITLE' | translate }}
             </h2>
+            <p class="text-gray-600 mb-4">
+              {{ 'HOME.CONTACT.PREFERRED_METHOD' | translate }}
+              <a href="mailto:info@infocle.ca" 
+                 rel="noopener"
+                 class="text-primary hover:text-primary/80 font-medium ml-1">
+                info@infocle.ca
+              </a>
+            </p>
           </div>
           
           <div class="bg-white rounded-lg shadow-md p-8">

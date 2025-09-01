@@ -31,9 +31,12 @@ import { TranslateModule } from '@ngx-translate/core';
           <div>
             <h3 class="text-lg font-semibold mb-4">{{ 'FOOTER.CONTACT_TITLE' | translate }}</h3>
             <div class="space-y-2 text-gray-300">
-              <p>contact@infocle-solutions.com</p>
-              <p>+1 (555) 123-4567</p>
-              <p>{{ 'FOOTER.ADDRESS' | translate }}</p>
+              <p>{{ 'FOOTER.CONTACT_DESCRIPTION' | translate }}</p>
+              <a href="mailto:info@infocle.ca" 
+                 rel="noopener"
+                 class="text-gray-300 hover:text-white transition-colors">
+                info@infocle.ca
+              </a>
             </div>
           </div>
         </div>

@@ -65,6 +65,7 @@
     },
     "CONTACT": {
       "TITLE": "Tell us about your project",
+      "PREFERRED_METHOD": "We prefer contact via the form below, or email us at",
       "FORM": {
         "NAME": "Your Name",
         "EMAIL": "Email Address",
@@ -156,7 +157,7 @@
     "SERVICE_2": "Cloud Solutions",
     "SERVICE_3": "IT Consulting",
     "CONTACT_TITLE": "Contact",
-    "ADDRESS": "Montreal, Quebec, Canada",
+    "CONTACT_DESCRIPTION": "Get in touch with us via our contact form or email:",
     "COPYRIGHT": "© 2025 InfoClé Solutions. All rights reserved."
   }
 }
