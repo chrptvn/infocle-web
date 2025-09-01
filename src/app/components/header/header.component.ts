@@ -14,7 +14,7 @@ import { LanguageSwitcherComponent } from '../language-switcher/language-switche
           <!-- Logo -->
           <div class="flex-shrink-0">
             <a routerLink="/" class="flex items-center hover:opacity-80 transition-opacity">
-              <img src="/assets/infocle-logo.webp" alt="InfoClé Solutions" class="h-12 w-auto">
+              <img src="/assets/infocle-logo.webp" alt="InfoClé Solutions" class="h-16 w-auto">
             </a>
           </div>
           
