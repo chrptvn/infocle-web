@@ -19,7 +19,7 @@ import { TranslateModule } from '@ngx-translate/core';
           </p>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div class="grid grid-cols-1 lg:grid-cols-1 gap-12">
           <!-- Contact Form -->
           <div class="bg-white rounded-lg shadow-md p-8 mx-auto max-w-2xl lg:max-w-none">
             <h2 class="text-2xl font-semibold text-gray-900 mb-6">

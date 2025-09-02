@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
@@ -7,7 +6,7 @@ import { CommonModule } from '@angular/common';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [RouterLink, TranslateModule, ReactiveFormsModule, CommonModule],
+  imports: [TranslateModule, ReactiveFormsModule, CommonModule],
   template: `
     <div class="bg-gradient-to-br from-primary/5 to-primary/10">
       <!-- Hero Section -->
@@ -236,7 +235,7 @@ import { CommonModule } from '@angular/common';
               <a href="mailto:info@infocle.ca" 
                  rel="noopener"
                  class="text-primary hover:text-primary/80 font-medium ml-1">
-                info@infocle.ca
+                info&#64;infocle.ca
               </a>
             </p>
           </div>
@@ -258,7 +257,7 @@ import { CommonModule } from '@angular/common';
 
                 <div>
                   <label for="email" class="block text-sm font-medium text-dark-neutral mb-2">
-                    {{ 'HOME.CONTACT.FORM.EMAIL' | translate }}
+                    {{ 'HOME.CONTACT.FORM.EMAIL_OR_PHONE' | translate }}
                   </label>
                   <input 
                     type="email" 
@@ -287,7 +286,7 @@ import { CommonModule } from '@angular/common';
 
               <div class="mb-6">
                 <label for="message" class="block text-sm font-medium text-dark-neutral mb-2">
-                  {{ 'HOME.CONTACT.FORM.EMAIL_OR_PHONE' | translate }}
+                  {{ 'HOME.CONTACT.FORM.MESSAGE' | translate }}
                 </label>
                 <textarea 
                   type="text" 

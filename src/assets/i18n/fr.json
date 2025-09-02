@@ -68,7 +68,7 @@
       "PREFERRED_METHOD": "Nous vous contacterons dans les plus brefs délais. Vous pouvez aussi nous écrire à",
       "FORM": {
         "NAME": "Votre Nom",
-        "EMAIL_OR_PHONE": "Adresse Email ou Numéro de Téléphone",
+        "EMAIL_OR_PHONE": "Courriel ou Numéro de Téléphone",
         "PROJECT_TYPE": "Type de Projet",
         "PROJECT_TYPES": {
           "STATIC": "Site Web Statique",

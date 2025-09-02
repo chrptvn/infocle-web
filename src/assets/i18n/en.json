@@ -68,7 +68,7 @@
       "PREFERRED_METHOD": "We will contact you as soon as possible. You can also email us at",
       "FORM": {
         "NAME": "Your Name",
-        "EMAIL_OR_PHONE": "Email Address or Phone Number",
+        "EMAIL_OR_PHONE": "Email or Phone Number",
         "PROJECT_TYPE": "Project Type",
         "PROJECT_TYPES": {
           "STATIC": "Static Website",
