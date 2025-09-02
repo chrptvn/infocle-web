@@ -130,7 +130,7 @@
   },
   "CONTACT": {
     "TITLE": "Contact Us",
-    "SUBTITLE": "Have a question? Use the form below or reach us directly at info@infocle.ca",
+    "SUBTITLE_PART1": "Have a question? Use the form below or reach us directly at ",
     "FORM": {
       "TITLE": "Send us a message",
       "NAME": "Full Name",

@@ -130,7 +130,7 @@
   },
   "CONTACT": {
     "TITLE": "Nous Contacter",
-    "SUBTITLE": "Vous avez une question? Utilisez le formulaire ci-dessous ou contactez-nous directement à info@infocle.ca",
+    "SUBTITLE_PART1": "Vous avez une question? Utilisez le formulaire ci-dessous ou contactez-nous directement à ",
     "FORM": {
       "TITLE": "Envoyez-nous un message",
       "NAME": "Nom complet",

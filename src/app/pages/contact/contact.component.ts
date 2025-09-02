@@ -15,7 +15,12 @@ import { TranslateModule } from '@ngx-translate/core';
             {{ 'CONTACT.TITLE' | translate }}
           </h1>
           <p class="text-xl text-gray-600">
-            {{ 'CONTACT.SUBTITLE' | translate }}
+            {{ 'CONTACT.SUBTITLE_PART1' | translate }}
+            <a href="mailto:info@infocle.ca" 
+               rel="noopener"
+               class="text-primary hover:text-primary/80 font-medium">
+              info&#64;infocle.ca
+            </a>
           </p>
         </div>
 
