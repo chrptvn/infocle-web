@@ -39,7 +39,7 @@ import { TranslateModule } from '@ngx-translate/core';
                   type="text" 
                   id="name" 
                   formControlName="name"
-                  class="w-full px-4 py-4 text-xl border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-colors"
+                  class="w-full px-4 py-3 text-xl border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-colors"
                   [class.border-red-500]="contactForm.get('name')?.invalid && contactForm.get('name')?.touched">
               </div>
 
@@ -51,7 +51,7 @@ import { TranslateModule } from '@ngx-translate/core';
                   type="text" 
                   id="email" 
                   formControlName="email"
-                  class="w-full px-4 py-4 text-xl border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-colors"
+                  class="w-full px-4 py-3 text-xl border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-colors"
                   [class.border-red-500]="contactForm.get('email')?.invalid && contactForm.get('email')?.touched">
               </div>
 
@@ -63,7 +63,7 @@ import { TranslateModule } from '@ngx-translate/core';
                   type="text" 
                   id="subject" 
                   formControlName="subject"
-                  class="w-full px-4 py-4 text-xl border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-colors"
+                  class="w-full px-4 py-3 text-xl border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-colors"
                   [class.border-red-500]="contactForm.get('subject')?.invalid && contactForm.get('subject')?.touched">
               </div>
 
@@ -73,16 +73,16 @@ import { TranslateModule } from '@ngx-translate/core';
                 </label>
                 <textarea 
                   id="message" 
-                  rows="8" 
+                  rows="6" 
                   formControlName="message"
-                  class="w-full px-4 py-4 text-xl border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-colors"
+                  class="w-full px-4 py-3 text-xl border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary transition-colors"
                   [class.border-red-500]="contactForm.get('message')?.invalid && contactForm.get('message')?.touched"></textarea>
               </div>
 
               <button 
                 type="submit" 
                 [disabled]="contactForm.invalid"
-                class="w-full bg-primary text-white py-5 px-6 text-xl font-medium rounded-md hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+                class="w-full bg-primary text-white py-4 px-6 text-xl font-medium rounded-md hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
                 {{ 'CONTACT.FORM.SUBMIT' | translate }}
               </button>
             </form>
